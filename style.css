@@ -123,11 +123,35 @@ button:hover {
 }
 
 .div-texto p {
-    line-height: 1.6; /*espaços entre linhas*/
+    line-height: 1.5; /*espaços entre linhas*/
     text-indent: 2rem; /* indenta o texto */
     padding: 10px 10px 10px 0px;
     text-align: justify;
     font-size: 20px;
+}
+
+
+.btn-compras {
+    margin-top: 20px;
+}
+
+.btn-buy-card {
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-buy-crypto {
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: brown;
 }
 
 .div-foto {
