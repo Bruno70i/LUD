@@ -3,10 +3,16 @@
     margin: 0px;
 }
 
+:root {
+    --font-primary: 'PlayfairDisplay-VariableFont_wght', serif;
+    --font-secondary: 'BebasNeue-Regular', sans-serif;
+}
+
 /* --------------------- configuração dos menu (inicio) --------------------- */
 
 header {
     background-color: antiquewhite;
+    margin-bottom: 30px;
 }
 
 .nav-bar {
@@ -15,6 +21,18 @@ header {
     align-items: center;
     justify-content: space-around;
     box-shadow: 1px 1px 15px 1px rgba(71, 66, 37, 0.445);
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo p {
+    font-family: var(--font-primary);
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 .nav-list {
@@ -67,8 +85,6 @@ button:hover {
 }
 
 
-
-
 /*adicionar mais tarde as funcoes do mobile menu */
 .mobile-menu {
     display: none;
@@ -78,18 +94,37 @@ button:hover {
 
 /* -------------------- secao 1 inicio do site -------------------- */
 .secao-main {
-    padding-top: 30px;
     margin: auto;
     text-align: center;
     max-width: 1200px;
+    height: 80vh;
+    display: flex;
+    background-color: blueviolet;
 }
 
 .div-intro {
+    font-family: var(--font-primary);
+    padding: 20px;
     background-color: rgba(216, 216, 216, 0.692);
     border-radius: 20px;
     box-shadow: 5px 5px 10px 3px rgba(71, 66, 37, 0.205);
-
+    
+    /* Centraliza a div dentro do container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 90%; /* Garante que ocupa 90% a altura do container */
 }
+
+
+
+.div-intro-foto_wallpaper {
+    padding: 20px;
+    background-color: aqua;
+}
+
+
 
 .secao-main h1 {
     font-size: 50px;
