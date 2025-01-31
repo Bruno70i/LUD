@@ -99,15 +99,17 @@ button:hover {
     max-width: 1200px;
     height: 80vh;
     display: flex;
-    background-color: blueviolet;
+    
+    
 }
 
 .div-intro {
+    flex: 1; /* Faz com que as duas divs ocupem o mesmo espaço */
     font-family: var(--font-primary);
     padding: 20px;
-    background-color: rgba(216, 216, 216, 0.692);
+    background-image: linear-gradient(to top, rgb(216, 216, 216), rgb(255, 255, 255));
     border-radius: 20px;
-    box-shadow: 5px 5px 10px 3px rgba(71, 66, 37, 0.205);
+    box-shadow: 5px 5px 10px 2px rgba(71, 66, 37, 0.205);
     
     /* Centraliza a div dentro do container */
     display: flex;
@@ -117,12 +119,23 @@ button:hover {
     height: 90%; /* Garante que ocupa 90% a altura do container */
 }
 
+.div-intro p {
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    transition: 0.9s;
+}
 
 
 .div-intro-foto_wallpaper {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; /* Faz com que as duas divs ocupem o mesmo espaço */
     padding: 20px;
-    background-color: aqua;
 }
+
 
 
 
@@ -135,6 +148,7 @@ button:hover {
     text-align: center;
     padding: 20px;
     font-size: 14px;
+    font-family: var(--font-secondary);
 }
 
 .secao-main2 {
@@ -154,10 +168,12 @@ button:hover {
 }
 
 .div-texto h2 {
+    font-family: var(--font-secondary);
     padding: 10px 10px 10px 0px;
 }
 
 .div-texto p {
+    font-family: var(--font-secondary);
     line-height: 1.5; /*espaços entre linhas*/
     text-indent: 2rem; /* indenta o texto */
     padding: 10px 10px 10px 0px;
@@ -167,12 +183,13 @@ button:hover {
 
 
 .btn-compras {
-    margin-top: 20px;
+    padding: 30px;
+    padding-top: 70px;
 }
 
 .btn-buy-card {
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 15px;
     padding: 20px;
     border-radius: 10px;
     border-width: 1px;
@@ -181,15 +198,17 @@ button:hover {
 
 .btn-buy-crypto {
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 15px;
     color: white;
     padding: 20px;
     border-radius: 10px;
     border-width: 1px;
-    background-color: brown;
+    background-color: rgb(211, 159, 46);
+    border: none;
 }
 
 .div-foto {
     text-align: center;
     width: 30rem;
 }
+
