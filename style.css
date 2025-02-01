@@ -40,7 +40,7 @@
 /* --------------------- configuração dos menu (inicio) --------------------- */
 
 header {
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     margin-bottom: 30px;
 }
 
@@ -66,13 +66,13 @@ header {
 
 .nav-list {
     display: flex;
-    align-items: center;
+    align-items: center;   
 }
 
 .nav-list ul {
     display: flex;
     justify-content: center;
-    list-style: none;
+    list-style: none;   
 }
 
 li:hover {
@@ -84,10 +84,10 @@ li:hover {
 }
 
 .nav-link {
+    font-family: var(--font-secondary);
     text-decoration: none;
     font-size: 1.5rem;
-    color: chocolate;
-    font-weight: 400;
+    color: black;
 }
 
 .login.button {
@@ -100,7 +100,7 @@ button:hover {
 
 .login-button button {
     border: none;
-    background-color: brown;
+    background-color: var(--cor1);
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -110,12 +110,18 @@ button:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-decoration: none;
-    color: beige;
+    color: white;
+    font-weight: 600;
 }
 
 
 /*adicionar mais tarde as funcoes do mobile menu */
 .mobile-menu {
+    display: none;
+}
+
+/*adicionar mais tarde as funcoes do mobile menu */
+.mobile-menu-icon {
     display: none;
 }
 
@@ -126,32 +132,59 @@ button:hover {
     margin: auto;
     text-align: center;
     max-width: 1200px;
-    height: 80vh;
+    /*height: 80vh;*/
     display: flex;
     
     
 }
 
 .div-intro {
-    flex: 1; /* Faz com que as duas divs ocupem o mesmo espaço */
     font-family: var(--font-primary);
     padding: 20px;
-    background-image: linear-gradient(to top, var(--cor-composto13), rgb(255, 255, 255));
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px 2px rgba(71, 66, 37, 0.205);
     
     /* Centraliza a div dentro do container */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centraliza verticalmente */
     align-items: center; /* Centraliza horizontalmente */
-    height: 90%; /* Garante que ocupa 90% a altura do container */
+}
+
+.div-intro h1 {
+    font-size: 70px;
 }
 
 .div-intro p {
     font-family: var(--font-secondary);
     font-weight: 500;
     transition: 0.9s;
+}
+
+
+.btn-compras {
+    padding-top: 150px;
+    
+}
+
+.btn-buy-card {
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-buy-crypto {
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: var(--cor1);
+    border: none;
 }
 
 
@@ -166,10 +199,20 @@ button:hover {
 }
 
 
+/* -------------------- secao 1 FINAL -------------------- */
 
 
-.secao-main h1 {
-    font-size: 50px;
+.div-token {
+    background-color: var(--cor1);
+    font-family: var(--font-secondary);
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    margin: 5rem 0px 8rem;
+}
+
+.div-token h1 {
+    font-weight: 500;
 }
 
 
@@ -180,6 +223,8 @@ button:hover {
     font-family: var(--font-secondary);
 }
 
+
+/* -------------------- secao 2 INICIO -------------------- */
 .secao-main2 {
     margin: auto;
     align-items: center;
@@ -190,6 +235,7 @@ button:hover {
     max-width: 1200px;
     border-radius: 20px;
     box-shadow: 5px 10px 15px 6px rgba(71, 66, 37, 0.377);
+    margin-bottom: 100px;
 }
 
 .div-texto {
@@ -211,33 +257,76 @@ button:hover {
 }
 
 
-.btn-compras {
-    padding: 30px;
-    padding-top: 70px;
-}
-
-.btn-buy-card {
-    font-weight: bolder;
-    font-size: 15px;
-    padding: 20px;
-    border-radius: 10px;
-    border-width: 1px;
-    background-color: rgb(255, 255, 255);
-}
-
-.btn-buy-crypto {
-    font-weight: bolder;
-    font-size: 15px;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    border-width: 1px;
-    background-color: rgb(211, 159, 46);
-    border: none;
-}
-
 .div-foto {
     text-align: center;
     width: 30rem;
 }
 
+
+/* -------------------- secao 2 FINAL -------------------- */
+
+
+
+
+
+/* -------------------- secao 3 INCIO -------------------- */
+
+
+.div-caracteristicas {
+    text-align: center;
+    max-width: 1500px;
+    margin: auto;
+    font-family: var(--font-secondary);
+}
+
+.div-caracteristicas h1 {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.div-texto-caracteristicas {
+    text-align: justify;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.div-texto-caracteristicas P {
+    font-size: 18px;
+}
+
+.text-item {
+    padding: 20px;
+    background-color: var(--cor1);
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.589);
+}
+
+
+
+/* -------------------- secao 3 FINAL -------------------- */
+
+
+
+footer {
+    margin: 3rem 0px 0px 0px;
+    font-family: var(--font-secondary);
+    font-weight: bolder;
+    background-color: var(--cor-composto11);
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* -------------------- SECAO 4 INCIO -------------------- */
+
+.div-conteudo {
+    background-color: #000BED;
+}
+
+
+
+
+/* -------------------- SECAO 4 FIM -------------------- */
