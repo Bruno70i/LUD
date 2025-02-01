@@ -3,6 +3,35 @@
     margin: 0px;
 }
 
+/* cores composta */
+:root {
+    --cor-composto1: #F5EC20;
+    --cor-composto2: #F59F20;
+    --cor-composto3: #F57B20;
+    --cor-composto4: #AD932B;
+    --cor-composto5: #6E5837;
+    --cor-composto6: #6E6337;
+    --cor-composto7: #000BED; 
+    --cor-composto8: #0056ED;
+    --cor-composto9: #4200ED;
+    --cor-composto10: #374B6E;
+    --cor-composto11: #2D2E43;
+    --cor-composto12: #7500ED;
+    --cor-composto13: #46376E;
+}
+
+
+/*cores monocromatico*/
+:root {
+    --cor1: #EDBE00; /* Cor Principal*/
+    --cor2: #CAA23C;
+    --cor3: #A0884A;
+    --cor4: #75694A;
+    --cor5: #4B463C;
+    --cor6: #33312B;
+}
+
+
 :root {
     --font-primary: 'PlayfairDisplay-VariableFont_wght', serif;
     --font-secondary: 'BebasNeue-Regular', sans-serif;
@@ -11,7 +40,7 @@
 /* --------------------- configuração dos menu (inicio) --------------------- */
 
 header {
-    background-color: antiquewhite;
+    background-color: rgb(240, 240, 240);
     margin-bottom: 30px;
 }
 
@@ -107,7 +136,7 @@ button:hover {
     flex: 1; /* Faz com que as duas divs ocupem o mesmo espaço */
     font-family: var(--font-primary);
     padding: 20px;
-    background-image: linear-gradient(to top, rgb(216, 216, 216), rgb(255, 255, 255));
+    background-image: linear-gradient(to top, var(--cor-composto13), rgb(255, 255, 255));
     border-radius: 20px;
     box-shadow: 5px 5px 10px 2px rgba(71, 66, 37, 0.205);
     
