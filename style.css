@@ -322,10 +322,34 @@ footer {
 
 /* -------------------- SECAO 4 INCIO -------------------- */
 
-.div-conteudo {
-    background-color: #000BED;
+.secao-main4 {
+    text-align: center;
+    margin: 5rem 0px 5rem 0px;
+    padding: 20px;
+    background-color: var(--cor-composto11);
+    display: flex;
+    justify-content: center;
 }
 
+.div-conteudo {
+    max-width: 600px;
+    margin: 0px 20px 0px 20px;
+}
+
+.div-conteudo h1 {
+    color: white;
+    padding: 10px;
+    font-family: var(--font-secondary);
+    font-size: 25px;
+}
+
+.div-conteudo p {
+    color: white;
+    font-family: var(--font-secondary);
+    text-align: justify;
+    padding: 10px;
+    font-size: 18px;
+}
 
 
 
