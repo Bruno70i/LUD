@@ -235,7 +235,7 @@ button:hover {
     max-width: 1200px;
     border-radius: 20px;
     box-shadow: 5px 10px 15px 6px rgba(71, 66, 37, 0.377);
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .div-texto {
@@ -310,21 +310,12 @@ button:hover {
 
 
 
-footer {
-    margin: 3rem 0px 0px 0px;
-    font-family: var(--font-secondary);
-    font-weight: bolder;
-    background-color: var(--cor-composto11);
-    padding: 10px;
-    text-align: center;
-}
-
 
 /* -------------------- SECAO 4 INCIO -------------------- */
 
 .secao-main4 {
     text-align: center;
-    margin: 5rem 0px 5rem 0px;
+    margin: 10rem 0px 10rem 0px;
     padding: 20px;
     background-color: var(--cor-composto11);
     display: flex;
@@ -354,3 +345,82 @@ footer {
 
 
 /* -------------------- SECAO 4 FIM -------------------- */
+
+
+
+/* -------------------- SECAO 5 inicio -------------------- */
+
+.secao-main5 {
+    text-align: center;
+    margin-bottom: 10rem;
+    
+}
+
+.div-title-como-adquirir h1 {
+    font-size: 25px;
+    padding: 20px;
+    font-family: var(--font-secondary);
+}
+
+.div-main-como-comprar {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.div-container h2 {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    color: var(--cor-composto3);
+    padding: 20px;
+}
+
+.logo-itens {
+    margin: 20px;
+}
+
+/* -------------------- SECAO 5 FIM -------------------- */
+
+
+
+/* -------------------- SECAO 6 inicio -------------------- */
+
+.secao-main6 {
+    background-color: var(--cor-composto11);
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.div-revolucao {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    max-width: 1800px;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-secondary);
+    
+}
+
+.div-content p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* -------------------- SECAO 6 fim -------------------- */
+
+
+
+
+
+footer {
+    margin: 10rem 0px 0px 0px;
+    font-family: var(--font-secondary);
+    font-weight: bolder;
+    background-color: var(--cor-composto11);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
