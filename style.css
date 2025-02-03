@@ -58,7 +58,7 @@ header {
 }
 
 .nav-logo p {
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     padding: 10px;
     font-weight: bolder;
     font-size: 25px;
@@ -139,7 +139,7 @@ button:hover {
 }
 
 .div-intro {
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     padding: 20px;
     
     /* Centraliza a div dentro do container */
@@ -216,41 +216,6 @@ button:hover {
 }
 
 
-.corrupcao-brasil {
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    font-family: var(--font-secondary);
-    margin: auto;
-    margin-bottom: 7rem;
-    max-width: 900px;
-    border-radius: 30px;
-    box-shadow: 5px 10px 15px 6px rgba(71, 66, 37, 0.377);
-    background-color: rgb(221, 219, 219);
-}
-
-
-.corrupcao-brasil-conteudo {
-    display: flex;
-    padding: 10px;
-}
-
-.corrupcao-brasil-conteudo p {
-    padding: 10px;
-    text-align: justify;
-    text-indent: 3rem;
-}
-
-#titulo {
-    padding: 30px;
-}
-
-.quebra-texto h1 {
-    font-size: 1rem;
-}
-
-
-
 /* -------------------- secao 2 INICIO -------------------- */
 .secao-main2 {
     margin: auto;
@@ -262,7 +227,7 @@ button:hover {
     padding: 15px;
     max-width: 1000px;
     box-shadow: 5px 10px 15px 6px rgba(71, 66, 37, 0.377);
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .div-texto {
