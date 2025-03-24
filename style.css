@@ -224,10 +224,11 @@ button:hover {
     color: white;
     display: flex;
     justify-content: space-around; /* organiza os itens no centro */
-    padding: 15px;
+    padding: 55px;
     max-width: 1000px;
     box-shadow: 5px 10px 15px 6px rgba(71, 66, 37, 0.377);
     margin-bottom: 100px;
+    border-radius: 20px;
 }
 
 .div-texto {
